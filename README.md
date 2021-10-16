@@ -43,7 +43,7 @@ openssl passwd -1 -salt <salt from Step 3> <new password>
 
 Example:
 
-<img src="https://github.com/">
+<img src="https://github.com/realiis/zte-mf258-ssh-access/raw/master/openssl.png">
 
 ## Step 5
 Paste new hash in place of old hash in the `etc/shadow`:
