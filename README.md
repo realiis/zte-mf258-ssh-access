@@ -46,7 +46,7 @@ Example:
 <img src="./openssl.png">
 
 ## Step 5
-Paste new hash in place of old hash in the `etc/shadow`:
+Copy new hash from Step 4 and paste new hash in place of old hash in the `etc/shadow`:
 
 <img src="./newhash.png">
 
@@ -62,7 +62,7 @@ mv config.gz config.cfg
 ## Step 7
 Upload a new configuration file on the WebInterface:
 
-<img src="asd">
+<img src="./restore.png">
 
 ## Step 8
 
