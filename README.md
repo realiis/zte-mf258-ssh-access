@@ -7,7 +7,7 @@ Attention! You do so at your own risk
 ## Step 1
 Login to WebInterface (192.168.1.1) and download `Backup Configuration File`
 
-<img src="https://github.com/realiis/zte-mf258-ssh-access/raw/master/backuprestore.png">
+<img src="./backuprestore.png">
 
 ## Step 2
 Change name file:
@@ -28,11 +28,11 @@ tar -xf config
 ## Step 3
 Open `etc/shadow` and copy hash root (example on screenshot):
 
-<img src="https://github.com/realiis/zte-mf258-ssh-access/raw/master/etcshadow.png">
+<img src="./etcshadow.png">
   
 and paste the copied hash into the page https://www.tunnelsup.com/hash-analyzer/ and copy the `salt`:
 
-<img src="https://github.com/realiis/zte-mf258-ssh-access/raw/master/salt.png">
+<img src="./salt.png">
 
 ## Step 4
 
@@ -43,12 +43,12 @@ openssl passwd -1 -salt <salt from Step 3> <new password>
 
 Example:
 
-<img src="https://github.com/realiis/zte-mf258-ssh-access/raw/master/openssl.png">
+<img src="./openssl.png">
 
 ## Step 5
 Paste new hash in place of old hash in the `etc/shadow`:
 
-<img src="./etcshadow.png">
+<img src="./newhash.png">
 
 ## Step 6
 Create a new archive:
