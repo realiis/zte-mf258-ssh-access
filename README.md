@@ -53,7 +53,7 @@ Copy new hash from Step 4 and paste new hash in place of old hash in the `etc/sh
 ## Step 6
 Create a new archive:
 ```
-rm config
+rm config # Remove old config
 tar -cf config etc/ www/
 gzip config
 mv config.gz config.cfg
