@@ -7,7 +7,7 @@ Attention! You do so at your own risk
 ## Step 1
 Login to WebInterface (192.168.1.1) and download `Backup Configuration File`
 
-<img src="https://github.com/">
+<img src="https://github.com/realiis/zte-mf258-ssh-access/raw/master/backuprestore.png">
 
 ## Step 2
 Change name file:
