@@ -32,7 +32,7 @@ Open `etc/shadow` and copy hash root (example on screenshot):
   
 and paste the copied hash into the page https://www.tunnelsup.com/hash-analyzer/ and copy the `salt`:
 
-<img src="https://github.com/">
+<img src="https://github.com/realiis/zte-mf258-ssh-access/raw/master/salt.png">
 
 ## Step 4
 
