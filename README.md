@@ -28,7 +28,7 @@ tar -xf config
 ## Step 3
 Open `etc/shadow` and copy hash root (example on screenshot):
 
-<img src="https://github.com/">
+<img src="https://github.com/realiis/zte-mf258-ssh-access/raw/master/etcshadow.png">
   
 and paste the copied hash into the page https://www.tunnelsup.com/hash-analyzer/ and copy the `salt`:
 
