@@ -66,7 +66,7 @@ Upload a new configuration file on the WebInterface:
 
 ## Step 8
 
-Connect to router SSH with your new password:
+Connect to router SSH using your new password:
 
 ```
 ssh root@192.168.1.1
